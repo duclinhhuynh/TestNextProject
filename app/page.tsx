@@ -1,8 +1,10 @@
-import Image from "next/image";
-
+import Body from "./component/Body";
+import Footer from "./component/Footer";
 export default function Home() {
   return (
-    <div className="">
+    <div className="flex relative flex-col">
+      <Body/>
+      <Footer/>
     </div>
   );
 }
