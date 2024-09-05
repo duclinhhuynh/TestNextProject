@@ -1,5 +1,5 @@
 import "./globals.css";
-import Head from "./component/Head";
+import Head from "./components/Head";
 export default function RootLayout({
   children,
 }: Readonly<{
